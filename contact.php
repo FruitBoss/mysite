@@ -1,14 +1,11 @@
 <?php
   $size = ini_get('post_max_size');
   $type = strlen($size)-1;
-  switch($size{$type}) {
-    case "G": $size = $size * 1024 * 1024 * 1024;
-              break;
-    case "M": $size = $size * 1024 * 1024;
-              break;
-    case "K": $size = $size * 1024;
-              break;
-  }
+  switch($size{$type}) :
+    case "G": $size *= 1024;
+    case "M": $size *= 1024;
+    case "K": $size *= 1024;
+  endswitch;
 ?>
 <!DOCTYPE html>
 <html>
