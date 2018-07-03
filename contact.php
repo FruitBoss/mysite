@@ -9,7 +9,6 @@
 ?>
 <!DOCTYPE html>
 <html>
-<!-- <h1></h1> -->
 <head>
   <title>Контакты</title>
   <meta charset="utf-8" />
