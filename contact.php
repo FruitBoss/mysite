@@ -1,15 +1,15 @@
 <?php
-  $size = ini_get('post_max_size');
-  $sumbol = $size{strlen($size)-1};
-  switch(strtoupper($sumbol)) :
-    case "G": $size *= 1024;
-    case "M": $size *= 1024;
-    case "K": $size *= 1024;
-  endswitch;
+    $size = ini_get('post_max_size');
+    $sumbol = $size{strlen($size)-1};
+    switch(strtoupper($sumbol)) :
+      case "G": $size *= 1024;
+      case "M": $size *= 1024;
+      case "K": $size *= 1024;
+    endswitch;
 ?>
 <!DOCTYPE html>
 <html>
-
+<!-- <h1></h1> -->
 <head>
   <title>Контакты</title>
   <meta charset="utf-8" />
