@@ -73,7 +73,7 @@
         ['link'=>'Конаткты', 'href'=>'contact.php'],
         ['link'=>'Таблица умножения', 'href'=>'table.php'],
         ['link'=>'Калькулятор', 'href'=>'calc.php'],
-      ]
+      ];
     ?>
     
     <ul>
